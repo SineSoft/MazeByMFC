@@ -1,7 +1,7 @@
 #include"world.h"
 #include"stdafx.h"
-namespace sets//并查集，目前代码不需要懂，只需看懂注释即可
-{//想看懂的可以去自学下并查集的知识
+namespace sets
+{
 	int element[MAXN*MAXM+1];
 	int sets,roads;
 	struct road//一条路有两个端点，这里定义的变量v的功能参考后边的注释
